@@ -1,0 +1,10 @@
+var c = document.getElementById("battlemap");
+var ctx = c.getContext("2d");
+c.width = window.innerWidth*2;
+c.height = window.innerHeight*2;
+console.log(c.width, " ", c.height);
+ctx.moveTo(0, 0);
+ctx.lineTo(c.width, c.height);
+ctx.moveTo(0, 0);
+ctx.lineTo(0, c.height);
+ctx.stroke();

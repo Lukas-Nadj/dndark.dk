@@ -1,0 +1,13 @@
+.test{
+    display: flex;
+    justify-content: left;
+    padding-left: 0.1em;
+    border: 1ch;
+}
+
+img{
+    border-radius: 30px;
+    width: 2%;
+    height: 2%;
+}
+  
